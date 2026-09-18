@@ -1,0 +1,104 @@
+What is cloud ? 
+ - Internet
+
+What is CSP ? Cloud service provider
+- Provider for compute resources
+
+What is DC, Data center ?
+- Physcial Collection of servers
+
+How Many Regions aws has ?
+- 39
+
+How Dc's aws has ?
+- 130 - 140
+
+Wat is a AZ ?
+- Datacenter
+
+How many min Az's and max Az's in a Region ?
+- 3 - 6 : North Verginia
+
+What is Virtualisation ?
+- A process of creating virtual resources
+
+What is Hypervisor ?
+- Software to create Virtual servers 
+
+How many types of ec2 are there ? what are those ?
+- Gen, Com , Mem, Stor , Acc, Hpc
+
+What are purchase options ?
+- on dem, Savings - commitment on amt of BILL amout ex - 1000 $ every month - pay upfront
+, reser - S-Ri , C-Ri, - commiting on type of server - stnd ex - t2 - micro for 1yr , 
+conv - flexibilty on server type - change server type - pay upfront
+spot - rent unused capacity, with a leww warning time
+dedi / instance / host,
+Capacity Reser - Resever compute capacity in a spc az - Ex - N-cal, you want min 1000cpus 
+
+What is AMI ?
+- Amazon Machine Image - A complete software package, tools, licenses, OS
+
+Wht is a SG, security group/firewall ?
+- Set of rules to connect devices on the internet
+
+what is a web-server ? 
+- Web-Server is a software/hardware used to share data/content to users over internet/http
+
+Name 5 some web-server softwares 
+- httpd , nginx, caddy, litespeed, IIS - Internet Info Services
+
+Name 5 App Servers
+- Tomcat, Orc Weblogic, Jboss, GlassFish, ibm Webshpere
+
+Diff Between Web and App Server
+- Ws - Process http req and sends reponse
+- As - Process http req, perform app logic, send reponse
+
+Ways to Take Backup on CLOUD ? 
+- AMI, SnapShot, Volume, Aws Backup, DLM - Data life cycle manager
+
+How to manage users on cloud ?
+- IAM - Identity access management
+
+Services in IAM ?
+- Users
+- Groups
+- Policies
+- Roles
+
+How many no of users can be added to one aws acc ??
+- 5000
+
+How many groups ?
+- 300
+
+How many default policies aws has ?
+- 1560
+
+Who created linux ? whic year ?
+- Linus, 1989
+
+10 Popular Linux Dist ?
+- Ubuntu
+- Debain
+- Rhel
+- Fedora
+- Centos
+- Kali
+- Mint
+- Suse
+- Rocky
+- Arch
+- Parrot
+- Alma
+- Amazon
+- Puppet
+- Mandriva
+- Kubuntu
+
+Types of Volumes/Storages
+- Ebs - Elastic Block Sto - Server level
+- EFs - Elastic file sto - Network Level
+- S3 - Simple stor Services - WWW / Cloud
+
