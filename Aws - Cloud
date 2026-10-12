@@ -102,3 +102,107 @@ Types of Volumes/Storages
 - EFs - Elastic file sto - Network Level
 - S3 - Simple stor Services - WWW / Cloud
 
+What is a VPC ?
+- Virtual Private cloud
+
+What is the purpose of a VPC ?
+- isolation on network level
+
+How many VPC can be created in a Region ?
+- 5 
+
+what is a CIDR ?
+- class-less inter domain routing.
+
+Purpose of CIDR ??
+- TO define no of IP's allocated in a network.
+
+I want a network of 18k Ip, what will be CIDR ?
+- /17
+
+Min and Max no of subnets in a VPC ?
+- Min - 1 Max - 200
+
+i want two subnets with range 
+
+My vpc cidr is /16
+
+i need 
+
+1st subnet - 3k ip's - 10.0.0.0/20
+2nd subnet - 11k ip's - 10.0.16.0/18
+
+I want to Peer 3 Vpc's together - Yes
+
+What are the diff ways to connect to a VM ?
+- Direct Connect
+- SSH
+- SSM
+- Username and Password
+
+For Private VM ?
+- Jump Server / Bastion Host
+- SSM
+
+How to give WWW access to a Private VM ?
+- Nat Gateway
+
+We Have a S3 bucket, can this be used for multiple appps ?
+- Yes Create Bucket - Create Project Based Folder 
+
+You have newly joined Tester in your org, as a cloud admin, 
+what acces will you proivde him ?
+- Read-Only Access to tools related to his env.
+
+I want to Migrate a AMI from one AWS account to another ??
+- 
+
+Which is the cheapest storage on cloud ?
+- s3 - glacier deep archive
+
+Define lifecycle policies ?
+- To automatically move objects/files from one storage class to another
+
+Define types of storage classes ?
+- standard
+- Stnd IF
+- One Zone
+- Intel Tiering
+- Glacier (Flex, Instant, Deep)
+
+i want to peer two vpc's, what are the ground rules ?
+- Two Vpc's should have diff cidr
+- Send and Acc Req
+- Update Route tables
+
+Files on s3 bucket has been deleted, how do you recover the data ?
+- Versioning
+
+Steps to Deploy static web site on s3
+- Create bukcet
+- upload code
+- Permissions - Make public
+- Permissions - Enable static hosting
+- Update Bucket Policies
+
+What is the Diff between NACL and SG 
+ - NACL - Network level - Allow/Deny any IP
+ - SSH - Server Level - Can only allow
+
+We have 7 servers, across diff subnets, we need a combined storage
+- EFS - NFS - Network file system
+- works on what port ? 2049
+
+What is the diff between User, Access key, ROLE ?
+- USer - A person who can login into console
+- Keys - are used for controlling resources via CLI
+- Roles - Is used to give access to a AWS-RESOURCE to control AWS Services
+
+What are the diff types of IP's ?
+- Public, Private, Elastic 
+- Dynamic, Static, Static Public ip
+
+Types of Load Balancers and Purpose ?
+- App Lb - To dist traffic bet two or more servers
+- N/W Lb - To dist traffic between two networks
+- Gateway LB - When you want the traffic to be routed via some secured channels
